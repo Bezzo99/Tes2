@@ -133,7 +133,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://killz.my.id/"
+    REPO="https://novan-store.codes/"
 
 ####
 start=$(date +%s)
