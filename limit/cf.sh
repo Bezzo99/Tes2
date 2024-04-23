@@ -3,13 +3,13 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 ns_domain_cloudflare1() {
-DOMAIN=vpn-premi.biz.id
+DOMAIN=myservers.live
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.vpn-premi.biz.id
+SUB_DOMAIN=${sub}.myservers.live
 CF_ID=novanbunder99@gmail.com
 CF_KEY=77031c93060ae0986506dd4f2f59f4517cb7f
-echo "vpn-premi.biz.id" > /root/domain
+echo "myservers.live" > /root/domain
 echo $SUB_DOMAIN > /root/domain
 
 set -euo pipefail
